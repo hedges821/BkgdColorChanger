@@ -1,0 +1,70 @@
+#labelText{
+	-fx-font-size: 19.5px;
+	-fx-background-radius: 25px;
+}
+
+#buttonTextSize20{
+	-fx-font-size: 20px;
+}
+
+#buttonTextSize25{
+	-fx-font-size: 25px;
+	-fx-background-radius: 25px;
+}
+
+#colorContainer{
+	-fx-background-color: black;
+	-fx-font-size: 20px;
+	-fx-background-radius: 25px;
+	-fx-padding: 15px;
+}
+
+#WhiteFont{
+	-fx-text-fill: white;
+}
+
+#BlackFont{
+	-fx-text-fill: black;
+}
+
+#SliderStyle{
+	-fx-background-color: black;
+	-fx-background-radius: 25px;
+	-fx-padding: 15px;
+}
+
+#BackgroundRadius25{
+	-fx-background-radius: 25px;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-pref-width: 85px;
+    -fx-pref-height: 50px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+/*make a new slider image*/
+.slider .thumb{
+	-fx-background-image: url("/application/knob.png");
+	-fx-background-color: transparent;
+	-fx-pref-width: 50;
+	-fx-pref-height: 59;
+}
+
+.slider .track{
+	-fx-background-color: #fff;
+}
+
+.label{
+	-fx-font-family: "Arial Narrow";
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+}
